@@ -38,7 +38,7 @@ import model.PurchaseModel;
 /**
  * FXML Controller class
  *
- * @author Ramesh Godara
+ * @author Chidera Ugo
  */
 public class ListPurchaseController implements Initializable {
 

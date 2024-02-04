@@ -48,7 +48,7 @@ import org.controlsfx.control.textfield.AutoCompletionBinding;
 /**
  * FXML Controller class
  *
- * @author Ramesh Godara
+ * @author Chidera Ugo
  */
 public class EditSalesController implements Initializable {
 
@@ -447,7 +447,7 @@ public class EditSalesController implements Initializable {
             textFieldAmount.setText(Float.toString(collect.get(0).getAmount()));
         }
     }
-
+    
     public void deleteTableViewRow() {
         int selectedRowNum = tableViewItem.getSelectionModel().getSelectedIndex();
         if (selectedRowNum >= 0) {

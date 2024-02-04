@@ -48,7 +48,7 @@ import net.sf.jasperreports.view.JasperViewer;
 
 /**
  *
- * @author Ramesh Godara
+ * @author chidera ugo
  */
 public class AddSalesController implements Initializable {
 
@@ -257,6 +257,7 @@ public class AddSalesController implements Initializable {
             }
         }
     }
+
 
     public AddSalesController() {
         DbConnection dbc = DbConnection.getDatabaseConnection();
@@ -513,7 +514,7 @@ public class AddSalesController implements Initializable {
     }
 
     public void printInvoice() {
-        String sourceFile = "C://Users/Ramesh Godara/Documents/NetBeansProjects/RPOS/src/print/Invoice.jrxml";
+        String sourceFile = "C://Users/chidera ugo/Documents/NetBeansProjects/RPOS/src/print/Invoice.jrxml";
         try {
             JasperReport jr = JasperCompileManager.compileReport(sourceFile);
             HashMap<String, Object> para = new HashMap<>();

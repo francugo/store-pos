@@ -14,7 +14,7 @@ import javafx.stage.Stage;
 
 /**
  *
- * @author Ramesh Godara
+ * @author Chidera Ugo
  */
 public class MainPanel extends Application {
     
@@ -28,7 +28,7 @@ public class MainPanel extends Application {
        
         
         stage.setScene(scene);
-        stage.setTitle("Store POS - Powered by Ramesh Godara");
+        stage.setTitle("Store POS - Powered by Chidera Ugo");
         stage.getIcons().add(new Image("/asset/icon.png"));
         stage.show();
     }

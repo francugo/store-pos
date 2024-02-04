@@ -7,7 +7,7 @@ package model;
 
 /**
  *
- * @author Ramesh Godara
+ * @author Chidera Ugo
  */
 public class PurchaseReturnModel {
     private long orderId;
