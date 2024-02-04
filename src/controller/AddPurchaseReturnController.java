@@ -48,7 +48,7 @@ import net.sf.jasperreports.view.JasperViewer;
 
 /**
  *
- * @author Ramesh Godara
+ * @author Chidera Ugo
  */
 public class AddPurchaseReturnController implements Initializable {
 
